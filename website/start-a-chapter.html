@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hope's Horizon | Start a Chapter</title>
+  <meta name="description" content="Bring Hope's Horizon to your school or community and start your own chapter." />
+
+  <link rel="icon" type="image/png" href="images/favicon.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-grad pg-chapter">
+  <!-- ===== Loading screen ===== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <img src="images/logo.png" alt="Hope's Horizon" class="loader-logo" />
+  </div>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Hope's Horizon home">
+        <img class="logo-img" src="images/logo.png" alt="Hope's Horizon logo" />
+        <span class="logo-text">Hope's&nbsp;Horizon</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="events.html">Events</a>
+        <a href="what-we-will-do.html">What We Will Do</a>
+        <a href="meet-the-team.html">Meet the Team</a>
+        <a href="start-a-chapter.html" class="active">Start a Chapter</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="donate.html" class="btn btn-small btn-donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Start a Chapter ===== -->
+    <section class="section" id="chapter">
+      <div class="container">
+        <p class="section-eyebrow center">Get involved</p>
+        <h2 class="center">Start a chapter</h2>
+        <p class="center muted" style="max-width:620px;margin:0 auto;">
+          Want to bring Hope's Horizon to your own school or community? Start a
+          chapter and help bring comfort, hope, and awareness to children and
+          families affected by cancer, right where you are. 🎗️
+        </p>
+
+        <!-- How it works -->
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">✏️</div>
+            <h3>1. Apply</h3>
+            <p>Fill out the form below to tell us a little about you and your school or community.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>2. We connect</h3>
+            <p>We'll reach out, share a starter guide, and answer any questions you have.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🚀</div>
+            <h3>3. Launch</h3>
+            <p>Start making cards and care kits, raising awareness, and fundraising, all with our support.</p>
+          </article>
+        </div>
+
+        <!-- Application form -->
+        <div class="contact-bubble">
+          <h3 style="margin-top:0;color:#1b3a6b;">Apply to start a chapter</h3>
+          <!--
+            Sends to hopeshorizon7@gmail.com via FormSubmit.
+            First submission from the live site triggers a one-time confirmation email.
+          -->
+          <form class="contact-form" action="https://formsubmit.co/hopeshorizon7@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New chapter application from the Hope's Horizon website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style="display:none" />
+
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              School
+              <input type="text" name="school" placeholder="Your school's name" required />
+            </label>
+
+            <label>
+              State / Province
+              <input type="text" name="state" placeholder="e.g. Delaware" required />
+            </label>
+
+            <label>
+              Country
+              <input type="text" name="country" placeholder="e.g. United States" required />
+            </label>
+
+            <label>
+              Why do you want to start a chapter?
+              <textarea name="message" rows="5" placeholder="Tell us a bit about yourself and why you'd like to get involved." required></textarea>
+            </label>
+
+            <button type="submit" class="btn">Submit application</button>
+          </form>
+
+          <p class="contact-or">or</p>
+          <p class="contact-alt">
+            ✉️ Email us at
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hopeshorizon7@gmail.com&amp;su=Start%20a%20Chapter%20-%20Hope's%20Horizon" target="_blank" rel="noopener">hopeshorizon7@gmail.com</a>
+          </p>
+          <p class="contact-alt">
+            💬 or DM us through
+            <a href="https://instagram.com/hopeshorizon7" target="_blank" rel="noopener">Instagram</a>
+            or
+            <a href="https://www.tiktok.com/@hopeshorizon7" target="_blank" rel="noopener">TikTok</a>
+            <strong>@hopeshorizon7</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">
+          <img class="logo-img logo-img-footer" src="images/logo.png" alt="Hope's Horizon logo" />
+        </span>
+        <p class="footer-name">Hope's Horizon</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="events.html">Events</a>
+        <a href="what-we-will-do.html">What We Will Do</a>
+        <a href="meet-the-team.html">Meet the Team</a>
+        <a href="donate.html">Donate</a>
+        <a href="start-a-chapter.html">Start a Chapter</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p><a href="mailto:hopeshorizon7@gmail.com">hopeshorizon7@gmail.com</a></p>
+        <p>
+          <a class="social-link" href="https://instagram.com/hopeshorizon7" target="_blank" rel="noopener" aria-label="Hope's Horizon on Instagram">
+            <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.5.01-4.74.07-.94.04-1.45.2-1.79.33-.45.17-.77.38-1.11.72-.34.34-.55.66-.72 1.11-.13.34-.29.85-.33 1.79-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.04.94.2 1.45.33 1.79.17.45.38.77.72 1.11.34.34.66.55 1.11.72.34.13.85.29 1.79.33 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.94-.04 1.45-.2 1.79-.33.45-.17.77-.38 1.11-.72.34-.34.55-.66.72-1.11.13-.34.29-.85.33-1.79.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.94-.2-1.45-.33-1.79a2.98 2.98 0 0 0-.72-1.11 2.98 2.98 0 0 0-1.11-.72c-.34-.13-.85-.29-1.79-.33-1.24-.06-1.59-.07-4.74-.07zm0 2.76a5.3 5.3 0 1 1 0 10.6 5.3 5.3 0 0 1 0-10.6zm0 1.62a3.68 3.68 0 1 0 0 7.36 3.68 3.68 0 0 0 0-7.36zm5.5-.21a1.24 1.24 0 1 1-2.48 0 1.24 1.24 0 0 1 2.48 0z"/>
+            </svg>
+            <span>@hopeshorizon7</span>
+          </a>
+        </p>
+        <p>
+          <a class="social-link social-tiktok" href="https://www.tiktok.com/@hopeshorizon7" target="_blank" rel="noopener" aria-label="Hope's Horizon on TikTok">
+            <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M16.6 5.82a4.28 4.28 0 0 1-1.05-2.82h-3.1v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .79-5.05V9.69a5.7 5.7 0 0 0-.79-.06A5.69 5.69 0 1 0 15.55 15.3V9.01a7.34 7.34 0 0 0 4.28 1.37V7.28a4.28 4.28 0 0 1-3.23-1.46z"/>
+            </svg>
+            <span>@hopeshorizon7</span>
+          </a>
+        </p>
+        <p class="muted small">© <span id="year">2026</span> Hope's Horizon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

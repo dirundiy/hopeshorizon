@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hope's Horizon</title>
+  <meta name="description" content="Hope's Horizon is a youth-led initiative bringing hope, support, and awareness to those affected by cancer." />
+
+  <meta property="og:title" content="Hope's Horizon" />
+  <meta property="og:description" content="A youth-led initiative bringing hope, support, and awareness to those affected by cancer." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="images/favicon.png?v=3" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Loading screen ===== -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <img src="images/logo.png" alt="Hope's Horizon" class="loader-logo" />
+  </div>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Hope's Horizon home">
+        <img class="logo-img" src="images/logo.png" alt="Hope's Horizon logo" />
+        <span class="logo-text">Hope's&nbsp;Horizon</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="events.html">Events</a>
+        <a href="what-we-will-do.html">What We Will Do</a>
+        <a href="meet-the-team.html">Meet the Team</a>
+        <a href="start-a-chapter.html">Start a Chapter</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="donate.html" class="btn btn-small btn-donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner hero-grid">
+        <div class="hero-logo">
+          <div class="hero-logo-box">
+            <img src="images/logo.png" alt="Hope's Horizon logo" />
+          </div>
+          <p class="hero-logo-name">Hope's Horizon</p>
+        </div>
+        <div class="hero-text">
+          <p class="eyebrow">A youth-led initiative</p>
+          <h1>Small acts, <span class="accent">big change.</span></h1>
+          <p class="lead">
+            We are a youth-led initiative bringing hope, support, and awareness to
+            those affected by cancer. ⭐️🎗️❤️ ⋆ ୨୧ ⋆
+          </p>
+          <div class="hero-actions">
+            <a href="#donate" class="btn btn-donate">Donate now</a>
+            <a href="#mission" class="btn btn-ghost">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Mission ===== -->
+    <section class="section" id="mission">
+      <div class="container mission-grid">
+        <img class="mission-img"
+             src="images/mission.png"
+             alt="An illustration of a child and her mother, supported on their cancer journey." />
+        <div class="mission-text">
+          <h2>Our mission</h2>
+          <p class="muted">
+            Hope's Horizon is a youth-led initiative committed to
+            supporting children and families affected by cancer. Our mission is to
+            provide comfort and hope through thoughtfully prepared care kits filled
+            with items that bring joy and encouragement during treatment. We also
+            organize events and workshops to raise awareness about cancer and its
+            impact, while fundraising to donate much-needed resources to hospitals
+            and cancer support programs. We believe every child deserves to feel
+            loved and supported throughout their cancer journey, and we work to make
+            a positive difference in their lives and the community.
+          </p>
+          <p class="muted">
+            No child should have to face cancer feeling alone, and no family should
+            go through it without support. That belief is at the heart of everything
+            we do. 🎗️
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Upcoming Event ===== -->
+    <section class="section alt" id="event">
+      <div class="container">
+        <p class="section-eyebrow center">Upcoming event</p>
+        <h2 class="center">Join us at our fundraiser</h2>
+        <p class="center muted" style="max-width:620px;margin:0 auto;">
+          Mark your calendar and come say hello! It's a relaxed day of coffee,
+          community, and giving back. Bring your friends and family and help us
+          make a difference, one cup at a time.
+        </p>
+
+        <!-- June 2026 calendar with the event highlighted -->
+        <div class="calendar">
+          <div class="cal-header">June 2026</div>
+          <div class="cal-grid">
+            <span class="cal-dow">Sun</span>
+            <span class="cal-dow">Mon</span>
+            <span class="cal-dow">Tue</span>
+            <span class="cal-dow">Wed</span>
+            <span class="cal-dow">Thu</span>
+            <span class="cal-dow">Fri</span>
+            <span class="cal-dow">Sat</span>
+
+            <span class="cal-empty"></span>
+            <span class="cal-day">1</span>
+            <span class="cal-day">2</span>
+            <span class="cal-day">3</span>
+            <span class="cal-day">4</span>
+            <span class="cal-day">5</span>
+            <span class="cal-day">6</span>
+
+            <span class="cal-day">7</span>
+            <span class="cal-day">8</span>
+            <span class="cal-day">9</span>
+            <span class="cal-day">10</span>
+            <span class="cal-day">11</span>
+            <span class="cal-day">12</span>
+            <span class="cal-day">13</span>
+
+            <span class="cal-day">14</span>
+            <span class="cal-day">15</span>
+            <span class="cal-day">16</span>
+            <span class="cal-day cal-event" title="Sleeping Bird Coffee Fundraising Event">17</span>
+            <span class="cal-day">18</span>
+            <span class="cal-day">19</span>
+            <span class="cal-day">20</span>
+
+            <span class="cal-day">21</span>
+            <span class="cal-day">22</span>
+            <span class="cal-day">23</span>
+            <span class="cal-day">24</span>
+            <span class="cal-day">25</span>
+            <span class="cal-day">26</span>
+            <span class="cal-day">27</span>
+
+            <span class="cal-day">28</span>
+            <span class="cal-day">29</span>
+            <span class="cal-day">30</span>
+          </div>
+          <p class="cal-note">🎗️ Sleeping Bird Coffee Fundraising Event on June 17</p>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">Jun</span>
+            <span class="event-day">17</span>
+          </div>
+          <div class="event-body">
+            <h3>Childhood Cancer Awareness Fundraiser</h3>
+            <p class="event-host">In partnership with <a href="https://www.sleepingbirdcoffee.com/" target="_blank" rel="noopener"><strong>Sleeping Bird Coffee</strong></a></p>
+
+            <ul class="event-meta">
+              <li><span aria-hidden="true">📅</span> Wednesday, June 17, 2026</li>
+              <li><span aria-hidden="true">🕙</span> 10:00&nbsp;AM – 3:00&nbsp;PM</li>
+              <li><span aria-hidden="true">📍</span> 3111 Miller Rd, Wilmington, DE 19802</li>
+            </ul>
+
+            <p>
+              Join us at Sleeping Bird Coffee for Hope's Horizon's Childhood Cancer
+              Awareness Fundraiser. A portion of all sales will be donated to support
+              our efforts to raise awareness for childhood cancer. Every purchase
+              makes a difference!
+            </p>
+
+            <div class="event-actions">
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=3111+Miller+Rd+Wilmington+DE+19802" target="_blank" rel="noopener">Get directions</a>
+              <a class="btn btn-ghost" href="#donate">Support us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event flyer. Save the flyer image as images/fundraiser-flyer.jpg -->
+        <figure class="event-flyer">
+          <a href="images/fundraiser-flyer.jpg" target="_blank" rel="noopener">
+            <img src="images/fundraiser-flyer.jpg"
+                 alt="Hope's Horizon Childhood Cancer Awareness Fundraiser flyer for Sleeping Bird Coffee, June 17, 10 AM to 3 PM, 3111 Miller Rd, Wilmington, DE 19802." />
+          </a>
+          <figcaption class="muted small">Tap the flyer to view it full size</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== What We Will Do ===== -->
+    <section class="section" id="work">
+      <div class="container">
+        <h2 class="center">What we will do</h2>
+        <p class="center muted" style="max-width:620px;margin:0 auto 0;">
+          Here's how we turn our mission into action. Every project is created and
+          run by our team, and made possible by the support of people like you.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">✍️</div>
+            <h3>Make cards</h3>
+            <p>Handmade cards to bring a smile, comfort, and encouragement to children during treatment.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎁</div>
+            <h3>Make care packages</h3>
+            <p>Thoughtfully prepared care kits filled with items that bring joy and hope throughout the cancer journey.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎗️</div>
+            <h3>Fundraise &amp; donate</h3>
+            <p>Raising funds to donate to cancer foundations, children's hospitals, and cancer institutions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Meet the Team ===== -->
+    <section class="section alt" id="team">
+      <div class="container">
+        <h2 class="center">Meet the team</h2>
+        <p class="center muted" style="max-width:640px;margin:0 auto;">
+          We are a group of young people united by one goal: to bring hope and
+          support to children and families affected by cancer. Each of us takes on a
+          role to keep Hope's Horizon running, but we all share the same passion for
+          making a difference. 💕
+        </p>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">🩷</div>
+            <h3>Diya Rajkumar</h3>
+            <p class="team-role">Founder &amp; President</p>
+            <p>Came up with the idea and started the nonprofit. I will lead the group by making major decisions and setting goals. I will oversee all projects, including care kits, bake sales, and social media. I also represent the nonprofit to the public, schools, donors, and businesses.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">🧡</div>
+            <h3>Jasmine Shi</h3>
+            <p class="team-role">Vice President</p>
+            <p>The Vice President supports the President and steps in when the President is unavailable. They help plan and organize events and projects. They share ideas and assist with problem-solving. The Vice President works closely with the team to keep everything running smoothly.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">💛</div>
+            <h3>Sahaana Dhinakaran</h3>
+            <p class="team-role">Secretary</p>
+            <p>The Secretary keeps track of decisions, important dates, and who is responsible for which tasks. They organize paperwork, such as thank-you notes, donation lists, and project ideas. They help communicate updates through group chats or emails. The Secretary maintains records of past and future plans, even if informally.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">💚</div>
+            <h3>Janya Sivakumar</h3>
+            <p class="team-role">Treasurer</p>
+            <p>The Treasurer manages all money donated, raised, or spent. They assist in planning budgets for care kits, events, and other expenses. The Treasurer works with the team to ensure donations are used responsibly. They prepare simple reports on fundraising and spending when needed.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">💙</div>
+            <h3>Rithika Thirumurugan</h3>
+            <p class="team-role">Outreach Director</p>
+            <p>The Outreach Director builds relationships with community members, local businesses, and potential partners to support the nonprofit's goals. They lead efforts to raise awareness, recruit volunteers, and expand the nonprofit's network. This role plays a key part in connecting the organization with people who can help make its mission successful.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">💜</div>
+            <h3>Tia Srikanth</h3>
+            <p class="team-role">Social Media Manager</p>
+            <p>The Social Media Manager runs the nonprofit's social media accounts and helps spread the word about its mission. They create and share posts, promote events and fundraisers, and engage with the community online to raise awareness and grow support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Start a Chapter ===== -->
+    <section class="section" id="start-chapter">
+      <div class="container">
+        <p class="section-eyebrow center">Get involved</p>
+        <h2 class="center">Start a chapter</h2>
+        <p class="center muted" style="max-width:640px;margin:0 auto;">
+          Want to make a difference where you live? Start a Hope's Horizon chapter
+          at your own school or community and help bring comfort, hope, and
+          awareness to children and families affected by cancer.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💪</div>
+            <h3>Make an impact</h3>
+            <p>Bring comfort and hope to children and families affected by cancer right in your own community.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🌱</div>
+            <h3>Grow as a leader</h3>
+            <p>Build leadership, teamwork, and event-planning skills, and earn volunteer service hours along the way.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>You're not alone</h3>
+            <p>Get our starter guide, resources, and support every step of the way as you launch your chapter.</p>
+          </article>
+        </div>
+
+        <p class="center" style="margin-top:2rem;">
+          <a href="start-a-chapter.html" class="btn">Start a chapter</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Donate CTA ===== -->
+    <section class="cta" id="donate">
+      <div class="container narrow center">
+        <h2>Be part of the change</h2>
+        <p>
+          Every contribution, big or small, helps us reach one more family.
+          Donate today and make a real difference.
+        </p>
+        <!-- Replace # with your payment link (PayPal, Stripe, bank details, etc.) -->
+        <a href="#" class="btn btn-large btn-donate">Donate now</a>
+        <p class="fine"><span class="coming-soon">Coming soon</span></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">
+          <img class="logo-img logo-img-footer" src="images/logo.png" alt="Hope's Horizon logo" />
+        </span>
+        <p class="footer-name">Hope's Horizon</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="mission.html">Mission</a>
+        <a href="events.html">Events</a>
+        <a href="what-we-will-do.html">What We Will Do</a>
+        <a href="meet-the-team.html">Meet the Team</a>
+        <a href="donate.html">Donate</a>
+        <a href="start-a-chapter.html">Start a Chapter</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p><a href="mailto:hopeshorizon7@gmail.com">hopeshorizon7@gmail.com</a></p>
+        <p>
+          <a class="social-link" href="https://instagram.com/hopeshorizon7" target="_blank" rel="noopener" aria-label="Hope's Horizon on Instagram">
+            <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.5.01-4.74.07-.94.04-1.45.2-1.79.33-.45.17-.77.38-1.11.72-.34.34-.55.66-.72 1.11-.13.34-.29.85-.33 1.79-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.04.94.2 1.45.33 1.79.17.45.38.77.72 1.11.34.34.66.55 1.11.72.34.13.85.29 1.79.33 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.94-.04 1.45-.2 1.79-.33.45-.17.77-.38 1.11-.72.34-.34.55-.66.72-1.11.13-.34.29-.85.33-1.79.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.94-.2-1.45-.33-1.79a2.98 2.98 0 0 0-.72-1.11 2.98 2.98 0 0 0-1.11-.72c-.34-.13-.85-.29-1.79-.33-1.24-.06-1.59-.07-4.74-.07zm0 2.76a5.3 5.3 0 1 1 0 10.6 5.3 5.3 0 0 1 0-10.6zm0 1.62a3.68 3.68 0 1 0 0 7.36 3.68 3.68 0 0 0 0-7.36zm5.5-.21a1.24 1.24 0 1 1-2.48 0 1.24 1.24 0 0 1 2.48 0z"/>
+            </svg>
+            <span>@hopeshorizon7</span>
+          </a>
+        </p>
+        <p>
+          <a class="social-link social-tiktok" href="https://www.tiktok.com/@hopeshorizon7" target="_blank" rel="noopener" aria-label="Hope's Horizon on TikTok">
+            <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M16.6 5.82a4.28 4.28 0 0 1-1.05-2.82h-3.1v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .79-5.05V9.69a5.7 5.7 0 0 0-.79-.06A5.69 5.69 0 1 0 15.55 15.3V9.01a7.34 7.34 0 0 0 4.28 1.37V7.28a4.28 4.28 0 0 1-3.23-1.46z"/>
+            </svg>
+            <span>@hopeshorizon7</span>
+          </a>
+        </p>
+        <p class="muted small">© <span id="year">2026</span> Hope's Horizon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

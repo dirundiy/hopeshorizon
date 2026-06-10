@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Community crowd illustration for Hopes Horizon.
+  Single-color silhouettes meant to be used at low opacity as a background.
+  To use your own photo instead, see README.md ("Swapping in real photos").
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" fill="#ffffff">
+  <!-- Back row (smaller, lighter) -->
+  <g opacity="0.22">
+    <g transform="translate(60,70)">  <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 50 0 50 Q40 50 40 150 Z"/></g>
+    <g transform="translate(210,60)"> <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 40 0 40 Q40 40 40 150 Z"/></g>
+    <g transform="translate(360,72)"> <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 52 0 52 Q40 52 40 150 Z"/></g>
+    <g transform="translate(520,58)"> <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 38 0 38 Q40 38 40 150 Z"/></g>
+    <g transform="translate(680,70)"> <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 50 0 50 Q40 50 40 150 Z"/></g>
+    <g transform="translate(840,62)"> <circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 42 0 42 Q40 42 40 150 Z"/></g>
+    <g transform="translate(1000,72)"><circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 52 0 52 Q40 52 40 150 Z"/></g>
+    <g transform="translate(1140,60)"><circle cx="0" cy="0" r="26"/><path d="M-40 150 Q-40 40 0 40 Q40 40 40 150 Z"/></g>
+  </g>
+
+  <!-- Front row (larger, fuller) -->
+  <g transform="translate(0,40)" opacity="0.38">
+    <g transform="translate(130,120)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 60 0 60 Q52 60 52 200 Z"/></g>
+    <g transform="translate(300,108)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 48 0 48 Q52 48 52 200 Z"/></g>
+    <g transform="translate(470,122)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 62 0 62 Q52 62 52 200 Z"/></g>
+    <g transform="translate(640,106)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 46 0 46 Q52 46 52 200 Z"/></g>
+    <g transform="translate(810,122)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 62 0 62 Q52 62 52 200 Z"/></g>
+    <g transform="translate(980,110)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 50 0 50 Q52 50 52 200 Z"/></g>
+    <g transform="translate(1150,120)"><circle cx="0" cy="0" r="34"/><path d="M-52 200 Q-52 60 0 60 Q52 60 52 200 Z"/></g>
+  </g>
+</svg>
