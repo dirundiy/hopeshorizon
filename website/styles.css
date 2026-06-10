@@ -145,7 +145,7 @@ img { max-width: 100%; display: block; }
 /* ===== Header ===== */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: linear-gradient(135deg, #d4ebf2 0%, #a9c7e8 45%, #f6b8cd 100%);
+  background: #d4ebf2;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(0,0,0,.08);
 }
